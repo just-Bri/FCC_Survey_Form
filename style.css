@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  vertical-align: middle;
+}
+h1,
+#description {
+  text-align: center;
+}
+
+input,
+select,
+textarea {
+  border: solid 1px black;
+}
+.labels {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.rowTab {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 1px black;
+  border-bottom: 0px;
+}
+#commentBox {
+  border-bottom: solid 1px black;
+}
+
+#buttonDiv {
+  margin-top: 10px;
+  align-self: center;
+  text-align: center;
+}
